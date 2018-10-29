@@ -1,0 +1,28 @@
+{
+  "name": "scrapingnews",
+  "version": "1.0.0",
+  "description": "Repo for scraping news stories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnazeri0/scrapingnews.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnazeri0/scrapingnews/issues"
+  },
+  "homepage": "https://github.com/dnazeri0/scrapingnews#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.6.0",
+    "mongoose": "^5.3.7",
+    "request": "^2.88.0"
+  }
+}
